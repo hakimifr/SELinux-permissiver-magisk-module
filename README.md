@@ -5,6 +5,14 @@
 
 and well it seems to work properly
 
+## Instructions
+**If you for some reason wanna use this shitty module and don't know how, here's instruction**
+1. Clone the repo:    `$ git clone https://github.com/Hakimi0804/SELinux-permissiver-magisk-module.git`
+2. Change directory:  `$ cd SELinux-permissiver-magisk-module`
+3. Compress it:       `$ 7z a Filename.zip`
+4. Push:              `$ adb push Filename.zip /sdcard`
+5. Cleanup:           `$ cd ..; rm -rf SELinux-permissiver-magisk-module/`
+
 ## Credit
 [MMT-Extended](https://github.com/Zackptg5/MMT-Extended)
 
