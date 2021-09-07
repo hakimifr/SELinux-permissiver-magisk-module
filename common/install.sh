@@ -29,9 +29,6 @@ if chooseport 5; then
     install_script -l $MODPATH/uninstall.sh
     ui_print "- Unintalling module"
     rm -rf /data/adb/modules/$MODID
-    if ! $BOOTMODE ; then
-        recovery_cleanup
-    fi
     exit 0
 else
     ui_print "- Installing boot script"
