@@ -41,14 +41,14 @@ REPLACE="
 ##########################################################################################
 
 set_permissions() {
-  # Remove this if adding to this function
+  : # Remove this if adding to this function
 
   # Note that all files/folders in magisk module directory have the $MODPATH prefix - keep this prefix on all of your files/folders
   # Some examples:
   
   # For directories (includes files in them):
-  # set_perm_recursive  <dirname>                <owner> <group> <dirpermission> <filepermission> <contexts> (default: u:object_r:system_file:s0)
-    set_perm_recursive $MODPATH/common 0 0 0644 0755
+  # et_perm_recursive  <dirname>                <owner> <group> <dirpermission> <filepermission> <contexts> (default: u:object_r:system_file:s0)
+  #
   # set_perm_recursive $MODPATH/system/lib 0 0 0755 0644
   # set_perm_recursive $MODPATH/system/vendor/lib/soundfx 0 0 0755 0644
 
