@@ -1,0 +1,7 @@
+id=fucking-setenforce-0
+name=SELinux Permissiver
+version=v1
+versionCode=1
+author=Hakimi0804
+description=Exactly what the title says. Note: this will NOT work on device where setenforce 0 isn't possible.
+support=htpps://t.me/Hakimi0804
