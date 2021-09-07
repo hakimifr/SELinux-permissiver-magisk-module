@@ -28,7 +28,7 @@ if chooseport 5; then
     ui_print "  reboot is not required..."
     install_script -l $MODPATH/uninstall.sh
     ui_print "- Unintalling module"
-    rm -rf "$MODPATH"
+    rm -rf /data/adb/modules/$MODID
     if ! $BOOTMODE ; then
         recovery_cleanup
     fi
