@@ -32,6 +32,7 @@ if chooseport 5; then
     if ! $BOOTMODE ; then
         recovery_cleanup
     fi
+    exit 0
 else
     ui_print "- Installing boot script"
     install_script -l $MODPATH/common/script1.sh
