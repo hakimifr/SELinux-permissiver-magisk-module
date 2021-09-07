@@ -1,0 +1,2 @@
+# SELinux-permissiver-magisk-module
+REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
